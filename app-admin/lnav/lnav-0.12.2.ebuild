@@ -268,6 +268,9 @@ src_install() {
 src_configure() {
 	filter-lto
 
+	# disable CARGO_CMD (configure) -> HAVE_CARGO (make) -> HAVE_RUST_DEPS (cc)
+	use prql || export ac_cv_path_CARGO_CMD=
+
 	econf \
 		--disable-static \
 		--with-ncurses \
