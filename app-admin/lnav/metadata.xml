@@ -12,5 +12,6 @@
   </upstream>
   <use>
     <flag name="pcap">Enable support for pcap files.</flag>
+    <flag name="prql">Enable support prql queries.</flag>
   </use>
 </pkgmetadata>

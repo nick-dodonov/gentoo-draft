@@ -1,0 +1,4 @@
+# Nick Dodonov <nick.dodonov@gmail.com> (2024-10-09)
+# PRQL requests in lnav requires rust ('prqlc' cargo package is used).
+>=app-admin/lnav-0.12.2 prql
+
