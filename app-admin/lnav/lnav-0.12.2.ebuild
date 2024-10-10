@@ -236,6 +236,7 @@ BDEPEND="${BDEPEND}
 DOCS=( AUTHORS NEWS.md README )
 
 PATCHES=(
+	"${FILESDIR}"/${PN}-0.12.2-disable-tests.patch
 	"${FILESDIR}"/${PN}-0.12.2-lock-prqlc.patch
 )
 
